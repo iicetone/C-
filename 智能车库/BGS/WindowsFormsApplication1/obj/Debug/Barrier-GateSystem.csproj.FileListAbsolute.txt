@@ -1,0 +1,15 @@
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\智能车库.exe.config
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\智能车库.exe
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\智能车库.pdb
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Barrier-GateSystem.csprojResolveAssemblyReference.cache
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Cheku.MainForm.resources
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Cheku.Properties.Resources.resources
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Barrier-GateSystem.csproj.GenerateResource.Cache
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\智能车库.exe
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\智能车库.pdb
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Cheku.HistoryForm.resources
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Cheku.LoginForm.resources
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Cheku.ManageForm.resources
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Cheku.RechargeForm.resources
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Cheku.SystemForm.resources
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\dbBGS.accdb

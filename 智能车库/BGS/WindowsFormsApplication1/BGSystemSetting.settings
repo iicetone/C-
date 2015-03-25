@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Cheku" GeneratedClassName="BGSystemSetting">
+  <Profiles />
+  <Settings>
+    <Setting Name="SystemMode" Type="System.String" Scope="User">
+      <Value Profile="(Default)">单主机</Value>
+    </Setting>
+    <Setting Name="ServerAddr" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Rs485Port" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TotalSpace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="OccupiedSpace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RemainSpace" Type="System.String" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,9 @@
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\智能车库.exe.config
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\cheku.Properties.Resources.resources
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Cheku.Form1.resources
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\智能车库.exe
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\智能车库.pdb
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\智能车库.exe
+H:\WORK\C#\智能车库\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\智能车库.pdb

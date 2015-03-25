@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" GraphDirection="LeftToRight" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 Namespace=Cheku Type=ParkManagerForm Member=(Name=pMForm_UpdateChannel_Button_Click OverloadingParameters=[(@2 Namespace=System Type=Object),(@2 Namespace=System Type=EventArgs)]))" Category="CodeSchema_Method" Bounds="126.998333333333,0,256.26,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="pMForm_UpdateChannel_Button_Click" FunctionTypeFlags="方法" Label="pMForm_UpdateChannel_Button_Click" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///h:/work/c#/智能车库/bgs/windowsformsapplication1/parkmanageform.cs StartLineNumber=281 StartCharacterOffset=8 EndLineNumber=281 EndCharacterOffset=8)" />
+    <Node Id="(@1 Namespace=Cheku Type=ParkManagerForm Member=addDevice)" Category="CodeSchema_Method" Bounds="0,0,96.2566666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="addDevice" FunctionTypeFlags="方法" Label="addDevice" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///h:/work/c#/智能车库/bgs/windowsformsapplication1/parkmanageform.cs StartLineNumber=220 StartCharacterOffset=8 EndLineNumber=220 EndCharacterOffset=8)" />
+    <Node Id="@3" Category="CodeSchema_Method" Bounds="193.385,55.24,123.486666666667,25.24" CodeSchemaProperty_IsPrivate="True" CommonLabel="updateChannel" FunctionTypeFlags="方法" Label="updateChannel" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///h:/work/c#/智能车库/bgs/windowsformsapplication1/parkmanageform.cs StartLineNumber=137 StartCharacterOffset=8 EndLineNumber=137 EndCharacterOffset=8)" />
+  </Nodes>
+  <Links>
+    <Link Source="(@1 Namespace=Cheku Type=ParkManagerForm Member=(Name=pMForm_UpdateChannel_Button_Click OverloadingParameters=[(@2 Namespace=System Type=Object),(@2 Namespace=System Type=EventArgs)]))" Target="@3" Category="CodeSchema_Calls" Bounds="255.128326416016,25.2399997711182,0,21.0000019073486" />
+    <Link Source="(@1 Namespace=Cheku Type=ParkManagerForm Member=addDevice)" Target="@3" Category="CodeSchema_Calls" Bounds="94.4656982421875,24.9855861663818,104.676208496094,27.9338817596436" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用者" OutgoingActionLabel="调用" />
+    <Category Id="CodeSchema_Member" Label="编号" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="成员" />
+    <Category Id="CodeSchema_Method" Label="方法" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="方法" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="是私有的" Description="一个标志，用于指示该范围是“私有”范围" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="已虚拟化数据" Description="如果为 true，则图中可以包含表示虚拟化节点/链接(即，不在图中实际创建)的数据的节点和链接。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Language" Label="语言" Description="语言" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="起始行号" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="Member" Label="编号" ValueType="System.Object" />
+    <Name Id="Name" Label="名称" ValueType="System.String" />
+    <Name Id="Namespace" Label="命名空间" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="参数" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="类型" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=file:///H:/WORK/C%2523/智能车库/BGS/WindowsFormsApplication1/bin/x86/Debug/智能车库.exe" />
+    <Alias n="2" Uri="Assembly=$(FxRootUri)/v2.0.50727/mscorlib.dll" />
+    <Alias n="3" Id="(@1 Namespace=Cheku Type=ParkManagerForm Member=updateChannel)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="项目" ValueLabel="True">
+      <Condition Expression="HasCategory('项目')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="FxRootUri" Value="file:///C:/Windows/Microsoft.NET/Framework" />
+  </Paths>
+</DirectedGraph>

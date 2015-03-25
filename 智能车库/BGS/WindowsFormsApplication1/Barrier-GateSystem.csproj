@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E37246F-2904-4170-920D-1E415539341F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cheku</RootNamespace>
+    <AssemblyName>智能车库</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\HB\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C7173AF5D760C55D8B35FF653519527FCC709065</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Barrier-GateSystem_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BGSystem\BGSTimerOperater.cs" />
+    <Compile Include="BGSystem\CameraManager.cs" />
+    <Compile Include="CardForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CardForm.Designer.cs">
+      <DependentUpon>CardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CameraManager\AssemblyInfo.cs" />
+    <Compile Include="CameraManager\CHCNetSDK.cs" />
+    <Compile Include="CameraForm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CameraForm.Designer.cs">
+      <DependentUpon>CameraForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParkTimerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParkTimerForm.Designer.cs">
+      <DependentUpon>ParkTimerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormChannelPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainFormChannelPanel.Designer.cs">
+      <DependentUpon>MainFormChannelPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageManager\TcpOperater.cs" />
+    <Compile Include="MessageManager\MessageOperater.cs" />
+    <Compile Include="ParkManagePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ParkManagePanel.Designer.cs">
+      <DependentUpon>ParkManagePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewCardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewCardForm.Designer.cs">
+      <DependentUpon>NewCardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BGSystemSetting.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>BGSystemSetting.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Types\BGSystemStr.cs" />
+    <Compile Include="BGSystem\MessageEventArgs.cs" />
+    <Compile Include="DataManager\AccessHelper.cs" />
+    <Compile Include="BGSystem\BGSOperater.CS" />
+    <Compile Include="BGSystem\CardOperater.cs" />
+    <Compile Include="Types\CardStc.cs" />
+    <Compile Include="Types\BGSTimerStr.cs" />
+    <Compile Include="Types\CameraStc.cs" />
+    <Compile Include="Types\ParkUnit.cs" />
+    <Compile Include="Types\EntranceStatusStr.cs" />
+    <Compile Include="Types\EntranceSettingStr.cs" />
+    <Compile Include="Types\EntranceUnit.cs" />
+    <Compile Include="Types\ChargeModeStr.cs" />
+    <Compile Include="Types\ChannelUnit.cs" />
+    <Compile Include="Types\MessageStc.cs" />
+    <Compile Include="Types\Command.cs" />
+    <Compile Include="DataManager\DataOperater.cs" />
+    <Compile Include="DataBase\dbBGSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbBGSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManageForm.Designer.cs">
+      <DependentUpon>SystemManageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageManager\RS485Operater.cs" />
+    <Compile Include="BGSystem\ChargeOperater.cs" />
+    <Compile Include="HistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoryForm.Designer.cs">
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RechargePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RechargePanel.Designer.cs">
+      <DependentUpon>RechargePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CardForm.resx">
+      <DependentUpon>CardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CameraForm.resx">
+      <DependentUpon>CameraForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkTimerForm.resx">
+      <DependentUpon>ParkTimerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFormChannelPanel.resx">
+      <DependentUpon>MainFormChannelPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParkManagePanel.resx">
+      <DependentUpon>ParkManagePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewCardForm.resx">
+      <DependentUpon>NewCardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoryForm.resx">
+      <DependentUpon>HistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManageForm.resx">
+      <DependentUpon>SystemManageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RechargePanel.resx">
+      <DependentUpon>RechargePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Barrier-GateSystem_TemporaryKey.pfx" />
+    <None Include="DataBase\dbBGSDataSet.xsc">
+      <DependentUpon>dbBGSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataBase\dbBGSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbBGSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataBase\dbBGSDataSet.xss">
+      <DependentUpon>dbBGSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="BGSystemSetting.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>BGSystemSetting.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataBase\dbBGS.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Image\通道管理1.png" />
+    <None Include="Image\通道管理.png" />
+    <None Include="Image\监控管理1.png" />
+    <None Include="Image\监控管理.png" />
+    <None Include="Image\demo1.jpg" />
+    <None Include="Image\demo.jpg" />
+    <None Include="Image\line.png" />
+    <None Include="Image\open.png" />
+    <None Include="Image\ok.png" />
+    <None Include="Image\no.png" />
+    <None Include="Image\close.png" />
+    <None Include="Image\nocaard.png" />
+    <None Include="Image\card.png" />
+    <None Include="Image\打印1.png" />
+    <None Include="Image\打印.png" />
+    <None Include="Image\bg.png" />
+    <None Include="Image\用户管理2.png" />
+    <None Include="Image\用户管理1.png" />
+    <None Include="Image\用户管理.png" />
+    <None Include="Image\系统设置2.png" />
+    <None Include="Image\系统设置1.png" />
+    <None Include="Image\系统设置.png" />
+    <None Include="Image\历史纪录2.png" />
+    <None Include="Image\历史记录1.png" />
+    <None Include="Image\历史记录.png" />
+    <None Include="Image\充值管理2.png" />
+    <None Include="Image\充值管理1.png" />
+    <None Include="Image\充值管理.png" />
+    <None Include="Image\车库管理2.png" />
+    <None Include="Image\车库管理1.png" />
+    <None Include="Image\车库管理.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
